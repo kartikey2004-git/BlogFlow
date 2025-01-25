@@ -36,7 +36,7 @@ function Header() {
   ];
 
   return (
-    <header className="bg-gray-900 mb-auto  text-white py-4 
+    <header className="bg-gray-900 p-7 text-white w-screen
     shadow-lg ">
       <Container>
         <nav className="flex items-center justify-between">

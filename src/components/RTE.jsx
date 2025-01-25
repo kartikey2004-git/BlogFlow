@@ -8,7 +8,8 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
   const id = useId();
 
   return (
-    <div className="w-full">
+    <div className=""> 
+      <div className="w-full">
       {label && (
         <label htmlFor={id} className="block mb-2 text-sm font-medium text-gray-700">
           {label}
@@ -56,6 +57,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
           />
         )}
       />
+    </div>
     </div>
   );
 }
